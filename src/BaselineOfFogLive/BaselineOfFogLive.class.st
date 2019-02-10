@@ -20,5 +20,5 @@ BaselineOfFogLive >> baseline: spec [
 						className: #ConfigurationOfNeoJSON;
 						version: #stable;
 						repository: 'http://mc.stfx.eu/Neo' ].
-			spec package: #FogLive with: [ spec requires: #('FogComm' 'TaskItShell' 'Keccak' 'SmaccSolidity') ]
+			spec package: #FogLive with: [ spec requires: #('FogComm' 'TaskItShell' 'Keccak' 'SmaccSolidity') ] ]
 ]
