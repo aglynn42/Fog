@@ -17,6 +17,5 @@ BaselineOfFogComm >> baseline: spec [
 						className: #ConfigurationOfNeoJSON;
 						version: #stable;
 						repository: 'http://mc.stfx.eu/Neo' ].
-			spec baseline: 'ParametrizedTests' with: [ spec repository: 'github://tesonep/ParametrizedTests' ].
 			spec package: #FogComm with: [ spec requires: #('TaskItShell') ] ]
 ]
